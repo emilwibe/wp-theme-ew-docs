@@ -126,6 +126,6 @@ button:focus {
 }
 /* MODULES */
 header {
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid #eee;
     padding: var(--margin-l) 0;
 }
