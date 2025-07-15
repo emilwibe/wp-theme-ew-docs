@@ -10,6 +10,7 @@ Author URI: https://ew.dk
 :root {
   --clr-grey: #777;
   --clr-light-grey: #eee;
+  --font-heading: "Roboto", sans-serif;
   --margin-l: 60px;
 }
 html {
