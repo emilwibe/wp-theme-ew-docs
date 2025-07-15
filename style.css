@@ -95,6 +95,11 @@ button {
 button:focus {
   outline: none;
 }
+main {
+    display: grid;
+    grid-template-columns: 240px auto;
+    padding: var(--margin-l) 0;
+}
 @media screen and (max-width: 1024px) {
   :root {
     --padding-module: 32px 0;
