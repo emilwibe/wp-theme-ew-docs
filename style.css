@@ -162,6 +162,14 @@ header {
   margin-left: 20px;
   text-decoration: none;
 }
+#nav-list a {
+  border-left: 2px solid transparent;
+  color: #111;
+  display: block;
+  font-size: 15px;;
+  line-height: 31px;
+  padding: 0 20px;
+}
 .flex-heading {
   display: flex;
   align-items: center;
