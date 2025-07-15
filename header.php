@@ -7,3 +7,7 @@
 </head>
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
+
+    <header class="l-wrapper xl">
+        <h1><?php get_bloginfo('name'); ?></h1>
+    </header>

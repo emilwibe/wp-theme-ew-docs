@@ -7,7 +7,119 @@ Author URI: https://ew.dk
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* BASE */
+:root {
+    --margin-l: 40px;
+}
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+h1 {
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 110%;
+}
+h1 + * {
+  margin-top: 18px;
+}
+h2 {
+  font-size: 43px;
+  font-weight: 500;
+  line-height: 110%;
+  margin-bottom: 0;
+}
+h2 + * {
+  margin-top: 16px;
+}
+h3 {
+  font-size: 31px;
+  font-weight: 500;
+  margin-top: 0;
+  line-height: 140%;
+  margin-bottom: 0;
+}
+h3 + * {
+  margin-top: 14px;
+}
+h4 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 0;
+}
+h4 + * {
+  margin-top: 14px;
+}
+h5 {
+  font-size: 18px;
+  line-height: 110%;
+  margin-bottom: 0;
+}
+h5 + * {
+  margin-top: 12px;
+}
+h6 {
+  font-size: 15px;
+  line-height: 110%;
+  margin-bottom: 0;
+}
+a {
+  color: #66909C;
+  color: var(--clr-grass-green);
+  font-weight: 400;
+}
+strong {
+  font-weight: 500;
+}
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+button:focus {
+  outline: none;
+}
+@media screen and (max-width: 1024px) {
+  :root {
+    --padding-module: 32px 0;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+  h6 {
+    font-size: 15px;
+  }
+}
+/* LAYOUT */
+.l-wrapper {
+    margin: 0 auto;
+    width: calc(100% - calc( 2 * var(--margin-l)));
+}
+.l-wrapper.xl {
+    max-width: 1140px;
 }
