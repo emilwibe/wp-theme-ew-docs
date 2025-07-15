@@ -1,1 +1,2 @@
-# wp-theme-ew-docs
+# WordPress Theme: EW Docs
+For documentation for clients. Simple, sleak

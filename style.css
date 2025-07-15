@@ -1,0 +1,13 @@
+/*
+Theme Name: EW Docs
+Author: Emil Wibe - EW Web
+Author URI: https://ew.dk
+*/
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* BASE */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
