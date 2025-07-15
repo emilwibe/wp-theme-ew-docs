@@ -159,3 +159,8 @@ header {
   animation: fade-in 0.45s paused forwards;
   opacity: 0;
 }
+.flex-img img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
