@@ -22,9 +22,3 @@
 </head>
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
-
-    <header class="l-wrapper xl">
-        <h1><?php echo get_bloginfo('name'); ?></h1>
-
-        <p class="sub-heading"><?php echo get_bloginfo('description'); ?></p>
-    </header>
