@@ -18,8 +18,11 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  color: var(--clr-grey);
   font-family: "Roboto", sans-serif;
+  font-size: 15px;
   font-weight: 300;
+  line-height: 1.725;
 }
 h1,
 h2,
