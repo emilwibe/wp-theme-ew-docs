@@ -11,7 +11,7 @@ add_action( 'wp_enqueue_scripts', 'ew_enqueues' );
 // TinyMCE
 add_filter('tiny_mce_before_init', function ($settings) {
 
-    $settings['block_formats'] = 'Tekst=p;Overskrift 4=h4;Overskrift 5=h5;Overskrift 6=h6';
+    $settings['block_formats'] = 'Tekst=p;Overskrift 3=h3;Overskrift 4=h4;Overskrift 5=h5;Overskrift 6=h6';
 
     return $settings;
 });
