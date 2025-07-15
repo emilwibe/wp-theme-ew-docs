@@ -40,8 +40,6 @@ h1 + * {
   margin-top: 18px;
 }
 h2 {
-  display: flex;
-  align-items: center;
   font-size: 43px;
   font-weight: 200;
   line-height: 110%;
@@ -164,6 +162,10 @@ header {
 .scroll-to-top-link {
   font-size: 16px;
   text-decoration: none;
+}
+.flex-heading {
+  display: flex;
+  align-items: center;
 }
 .flex-img img {
   display: block;
