@@ -8,6 +8,8 @@
 
     <div class="content">
 
+    <?php get_template_part('tp/flex-entry'); ?>
+
     </div><!--/.content-->
 
 </main>
