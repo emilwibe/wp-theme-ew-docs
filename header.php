@@ -10,4 +10,6 @@
 
     <header class="l-wrapper xl">
         <h1><?php echo get_bloginfo('name'); ?></h1>
+
+        <p class="sub-heading"><?php echo get_bloginfo('description'); ?></p>
     </header>
