@@ -1,6 +1,6 @@
 <?php if (!defined('ABSPATH')) { exit; } ?>
 
-<section class="l-wrapper xl flex-img">
+<section class="flex-img">
 
     <?php
         $imgID = get_sub_field('flex_img_img');
