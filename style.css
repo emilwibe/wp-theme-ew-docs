@@ -8,6 +8,8 @@ Author URI: https://ew.dk
 
 /* BASE */
 :root {
+    --clr-grey: #777;
+    --clr-light-grey: #eee;
     --margin-l: 60px;
 }
 body {
@@ -126,6 +128,10 @@ button:focus {
 }
 /* MODULES */
 header {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--clr-light-grey);
     padding: var(--margin-l) 0;
+}
+.sub-heading {
+    color: var(--clr-grey);
+    text-align: center;
 }
