@@ -19,6 +19,14 @@ add_filter('tiny_mce_before_init', function ($settings) {
 add_filter('mce_css', 't5_fresh_editor_style');
 
 /**
+ * Registers an editor stylesheet for the theme.
+ */
+function ew_theme_add_editor_styles() {
+    add_editor_style( "custom-editor-style.css" );
+}
+add_action( 'admin_init', 'ew_theme_add_editor_styles' );
+
+/**
  * Adds a parameter of the last modified time to all editor stylesheets.
  *
  * @wp-hook mce_css
