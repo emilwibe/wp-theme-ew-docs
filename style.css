@@ -10,6 +10,7 @@ Author URI: https://ew.dk
 :root {
   --clr-grey: #777;
   --clr-light-grey: #eee;
+  --clr-link: #66909c;
   --font-heading: "Roboto", sans-serif;
   --margin-l: 60px;
 }
@@ -78,8 +79,7 @@ h6 {
   margin-bottom: 0;
 }
 a {
-  color: #66909c;
-  color: var(--clr-grass-green);
+  color: var(--clr-link);
   font-weight: 400;
 }
 strong {
@@ -169,6 +169,7 @@ header {
   font-size: 15px;;
   line-height: 31px;
   padding: 0 20px;
+  text-decoration: none;
 }
 .flex-heading {
   display: flex;
