@@ -129,6 +129,9 @@ main {
   h6 {
     font-size: 15px;
   }
+  main {
+    grid-template-columns: 100%;
+  }
 }
 /* ANIMATIONS */
 @keyframes fade-in {
