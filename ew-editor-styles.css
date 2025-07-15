@@ -1,0 +1,85 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* BASE */
+:root {
+  --clr-black: #030303;
+  --clr-grey: #777;
+  --clr-light-grey: #eee;
+  --clr-link: #66909c;
+  --font-heading: "Roboto", sans-serif;
+  --margin-l: 60px;
+}
+body {
+  color: var(--clr-grey);
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.725;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--clr-black);
+  font-family: var(--font-heading);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+h1 {
+  font-size: 54px;
+  font-weight: 100;
+  line-height: 110%;
+  text-align: center;
+}
+h1 + * {
+  margin-top: 18px;
+}
+h2 {
+  font-size: 43px;
+  font-weight: 200;
+  line-height: 110%;
+  margin-bottom: 0;
+}
+h3 {
+  font-size: 31px;
+  font-weight: 200;
+  margin-top: 0;
+  line-height: 140%;
+  margin-bottom: 0;
+}
+h3 + * {
+  margin-top: 14px;
+}
+h4 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 0;
+}
+h4 + * {
+  margin-top: 14px;
+}
+h5 {
+  font-size: 18px;
+  line-height: 110%;
+  margin-bottom: 0;
+}
+h5 + * {
+  margin-top: 12px;
+}
+h6 {
+  font-size: 15px;
+  line-height: 110%;
+  margin-bottom: 0;
+}
+a {
+  color: var(--clr-link);
+  font-weight: 400;
+}
+strong {
+  color: var(--clr-black);
+  font-weight: 500;
+}
