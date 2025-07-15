@@ -179,7 +179,6 @@ header {
   transition: all 450ms;
 }
 #nav-list a:hover {
-  background-color: var(--clr-light-grey);
   border-color: var(--clr-link);
   color: var(--clr-link);
 }
