@@ -8,6 +8,7 @@ Author URI: https://ew.dk
 
 /* BASE */
 :root {
+  --clr-black: #030303;
   --clr-grey: #777;
   --clr-light-grey: #eee;
   --clr-link: #66909c;
@@ -86,6 +87,7 @@ a {
   font-weight: 400;
 }
 strong {
+  color: var(--clr-black);
   font-weight: 500;
 }
 nav ul {
