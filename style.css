@@ -161,6 +161,7 @@ header {
 }
 .scroll-to-top-link {
   font-size: 16px;
+  text-decoration: none;
 }
 .flex-img img {
   display: block;
